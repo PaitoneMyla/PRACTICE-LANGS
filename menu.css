@@ -1,0 +1,331 @@
+body{
+	font-family: 'Franklin Gothic';
+}
+div.top{
+	margin-top: -20px;
+	margin-left: -8px;
+	margin-right: -8px;
+	background-image: url('img/b2.jpg');
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 10px 10px 600px 10px;
+}
+div.nav{
+	text-align: center;
+	background: rgba(0,0,0,0.9);
+	background-attachment: fixed;
+	margin-left: -8px;
+	margin-right: -8px;
+	height: 70px;
+	width: 100%;
+	position: fixed;
+}
+div.mid{
+	margin-top: -20px;
+	margin-left: -8px;
+	margin-right: -8px;
+	background-image: url('img/b9.jpg');
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+.ossas{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu1>h1{
+	margin: 10;
+	background-color: rgba(0,0,0,0.6);
+	font-family: 'Franklin Gothic';
+}
+div.menu1{
+	margin-top: -20px;
+	padding: 10px 10px 500px 10px;
+	background-color: rgba(0,0,0,0.6);
+	margin-left: -8px;
+	margin-right: -8px;
+	text-align: center;
+	color: white;
+}
+.menu1 .button{
+	display: inline-block;
+	height: 250px;
+	width: 250px;
+	margin: 0 5px;
+	overflow: hidden;
+	background: rgba(0,0,0,0.6);
+	border-radius: 150px;
+	cursor: pointer;
+	box-shadow: 0 10px 10px rgba(255,255,255,0.6);
+	transition: all 0.5s ease-out;
+}
+.menu1 .button:hover{
+	height: 350px;
+}
+.menu1 .icon{
+	display: inline-block;
+	height: 250px;
+	width: 250px;
+	border-radius: 150px;
+	box-sizing: border-box;
+	line-height: 250px;
+}
+.menu1 .icon>button>label{
+	opacity: 0;
+	margin: -10px;
+	display: inline-block;
+	height: 250px;
+	width: 250px;
+	border-radius: 150px;
+	box-sizing: border-box;
+	line-height: 250px;
+	background: red;
+	cursor: pointer;
+}
+.menu1 .button span{
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 70px;
+	margin-left: 10px;
+}
+.closebtn{
+	margin-left: 1200px;
+	margin-top: 20px;
+}
+.menu_appetizer{
+	background: rgba(255,200,123,0.2);
+	border-radius: 25px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	height: 750px;
+	width: 1250px;
+}
+.menu_appetizer>button>label{
+	font-size: 20px;
+	cursor: pointer;
+	height: 10px;
+	width: 10px;
+}
+.ossas .appetizer_menu{
+	display: none;
+}
+.menu_dessert{
+	background: rgba(255,200,123,0.2);
+	border-radius: 25px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	height: 750px;
+	width: 1250px;
+}
+.menu_dessert>button>label{
+	font-size: 20px;
+	cursor: pointer;
+	height: 10px;
+	width: 10px;
+}
+.ossas .dessert_menu{
+	display: none;
+}
+.menu_drinks{
+	background: rgba(255,200,123,0.2);
+	border-radius: 25px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	height: 750px;
+	width: 1250px;
+}
+.menu_drinks>button>label{
+	font-size: 20px;
+	cursor: pointer;
+	height: 10px;
+	width: 10px;
+}
+.ossas .drinks_menu{
+	display: none;
+}
+.menu_salad{
+	background: rgba(255,200,123,0.2);
+	border-radius: 25px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	height: 750px;
+	width: 1250px;
+}
+.menu_salad>button>label{
+	font-size: 20px;
+	cursor: pointer;
+	height: 10px;
+	width: 10px;
+}
+.ossas .salad_menu{
+	display: none;
+}
+.menu_starters{
+	background: rgba(255,200,123,0.2);
+	border-radius: 25px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	height: 750px;
+	width: 1250px;
+}
+.menu_starters>button>label{
+	font-size: 20px;
+	cursor: pointer;
+	height: 10px;
+	width: 10px;
+}
+.ossas .starters_menu{
+	display: none;
+}
+#show1:checked ~ .ossas .appetizer_menu{
+	display: block;
+}
+#show2:checked ~ .ossas .dessert_menu{
+	display: block;
+}
+#show3:checked ~ .ossas .drinks_menu{
+	display: block;
+}
+#show4:checked ~ .ossas .salad_menu{
+	display: block;
+}
+#show5:checked ~ .ossas .starters_menu{
+	display: block;
+}
+#show1:checked ~ .button{
+	display: none;
+}
+#show2:checked ~ .button{
+	display: none;
+}
+#show3:checked ~ .button{
+	display: none;
+}
+#show4:checked ~ .button{
+	display: none;
+}
+#show5:checked ~ .button{
+	display: none;
+}
+input[type="checkbox"]{
+	display: none;
+}
+.img0{
+	height: 250px;
+	width: 250px;
+	margin: 0;
+	border-radius: 150px;
+	border-color: white;
+	border: solid;
+}
+.appetizer{
+	background: url(img/appetizer.jpg);
+	background-position: center;
+	background-size: 250px 250px;
+	background-repeat: no-repeat;
+	transition: all 0.5s ease-out;
+	opacity: 0.6;
+}
+.appetizer:hover{
+	background: url(img/go.jpg);
+	background-position: center;
+	background-size: 250px 250px;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+}
+.dessert{
+	background: url(img/dessert.jpg);
+	background-position: center;
+	background-size: 250px 250px;
+	background-repeat: no-repeat;
+	transition: all 0.5s ease-out;
+	opacity: 0.6;
+}
+.dessert:hover{
+	background: url(img/go.jpg);
+	background-position: center;
+	background-size: 250px 250px;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+}
+.drinks{
+	background: url(img/drinks.jpg);
+	background-position: center;
+	background-size: 250px 250px;
+	background-repeat: no-repeat;
+	transition: all 0.5s ease-out;
+	opacity: 0.6;
+}
+.drinks:hover{
+	background: url(img/go.jpg);
+	background-position: center;
+	background-size: 250px 250px;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+}
+.salad{
+	background: url(img/salad.jpg);
+	background-position: center;
+	background-size: 250px 250px;
+	background-repeat: no-repeat;
+	transition: all 0.5s ease-out;
+	opacity: 0.6;
+}
+.salad:hover{
+	background: url(img/go.jpg);
+	background-position: center;
+	background-size: 250px 250px;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+}
+.starters{
+	background: url(img/starters.jpg);
+	background-position: center;
+	background-size: 250px 250px;
+	background-repeat: no-repeat;
+	transition: all 0.5s ease-out;
+	opacity: 0.6;
+}
+.starters:hover{
+	background: url(img/go.jpg);
+	background-position: center;
+	background-size: 250px 250px;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+}
+ul>li>a{
+	color: white;
+	font-size: 25pt;
+	font-family: 'Franklin Gothic';
+
+}
+ul>li>a.home{
+	margin-left: -310px;
+	margin-right: 0;
+}
+ul>li>a.menu{
+	margin-left: -60px;
+	margin-right: 0;
+}
+ul>li>a.orders{
+	margin-left: 70px;
+	margin-right: 0;
+}
+ul>li>a.home:hover{
+	color: gray;
+}
+ul>li>a.menu:hover{
+	color: gray;
+}
+ul>li>a.orders:hover{
+	color: gray;
+}
+ul>li{
+	display: inline;
+	position: fixed;
+}

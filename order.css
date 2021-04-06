@@ -1,0 +1,24 @@
+h1{
+	font-size: 50px;
+	font-family: OCR A Std, monospace;
+	color: white;
+}
+body{
+	background-image: url('img/b2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Franklin Gothic';
+}
+form{
+	color: #FFD700;
+	font-size: 20px;
+}
+table{
+	border: solid #FFD700;
+}
+td.image{
+	height: 50px ;
+	width:30%;
+}	

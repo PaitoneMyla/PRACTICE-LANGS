@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="menu.css">
+</head>
+<body>
+
+<div class="heading">
+	
+</div>
+
+<div class="top">
+<div class="nav">
+<ul>
+<li>
+<a href="index.html" class="home">Home</a>
+</li>
+<li>
+<a href="menu.html" class="menu">Menu</a>
+</li>
+<li>
+<a href="orders.html" class="orders">Orders</a>
+</li>
+</ul>
+	</div>
+	
+</div>
+<div class="mid">
+	<div class="menu1">
+		<input type="checkbox" id="show1" name="show appetizer">
+		<input type="checkbox" id="show2" name="show dessert">
+		<input type="checkbox" id="show3" name="show drinks">
+		<input type="checkbox" id="show4" name="show salad">
+		<input type="checkbox" id="show5" name="show starters">
+		<h1>OUR MENU</h1><br><br>
+		<div class="button">
+			<div class="icon"><button class="img0 appetizer"><label for="show1"></label></button></div>
+					
+					<span>APPETIZER</span>
+		</div>
+		<div class="button">
+			<div class="icon"><button class="img0 dessert"><label for="show2"></label></button></div>
+					<span>DESSERT</span>
+		</div>
+		<div class="button">
+			<div class="icon"><button class="img0 drinks"><label for="show3"></label></button></div>
+					<span>DRINKS</span>
+		</div>
+		<div class="button">
+			<div class="icon"><button class="img0 salad"><label for="show4"></label></button></div>
+					<span>SALAD</span>
+		</div>
+		<div class="button">
+			<div class="icon"><button class="img0 starters"><label for="show5"></label></button></div>
+					<span>STARTERS</span>
+		</div>
+
+	<div class="ossas">
+	<div class="appetizer_menu">
+		<div class="menu_appetizer">
+			<button class="closebtn"><label for="show1">x</label></button>
+			<h1>this are the appetizers</h1>
+		</div>
+	</div>
+	<div class="dessert_menu">
+		<div class="menu_dessert">
+			<button class="closebtn"><label for="show2">x</label></button>
+			<h1>this are the dessert</h1>
+		</div>
+	</div>
+	<div class="drinks_menu">
+		<div class="menu_drinks">
+			<button class="closebtn"><label for="show3">x</label></button>
+			<h1>this are the drinks</h1>
+		</div>
+	</div>
+	<div class="salad_menu">
+		<div class="menu_salad">
+			<button class="closebtn"><label for="show4">x</label></button>
+			<h1>this are the salad</h1>
+		</div>
+	</div>
+	<div class="starters_menu">
+		<div class="menu_starters">
+			<button class="closebtn"><label for="show5">x</label></button>
+			<h1>this are the starter</h1>
+		</div>
+	</div>
+	</div>
+	</div>
+</div>
+
+<div class="footer">
+	
+</div>
+</div>
+</body>
+</html>
